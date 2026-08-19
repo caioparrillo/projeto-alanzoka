@@ -1,2 +1,2 @@
 # projeto-alanzoka
-Projeto sobre Alanzoka
+Projeto sobre Alanzoka utilizando varios conceitos de HTML e CSS
