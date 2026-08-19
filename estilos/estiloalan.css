@@ -1,0 +1,124 @@
+:root{
+    --cor0: #EE7674;
+    --cor1: #4B4073;
+    --cor2: #5296A5;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    background: url(../imagens/fundo.png) center center / cover no-repeat fixed;
+}
+header{
+    background: url(../imagens/backroundteste.png);
+    background-size: cover;
+    min-height: 150px;
+    text-align: center;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+/* header > h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 3em;
+} */
+nav{
+    background-color: var(--cor1);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
+}
+nav > a{
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 2s;
+}
+nav > a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgba(203, 0, 253, 0.493);
+}
+main {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    padding: 10px;
+    margin: auto;
+    font-size: 1em;
+    min-width: 320px;
+    max-width: 800px;
+}
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+h1{
+    color: #C7B8EA;
+    text-align: center;
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.712);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+nav a{
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bold;
+}
+abbr{
+    text-decoration: none;
+}
+a:visited {
+    color: var(--cor2);
+}
+ul a:visited{
+    color: black;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.280);
+}
+aside > h3{
+    background-color: var(--cor1);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside >ul {
+    list-style-position: inside;
+    columns: 2;
+}
+footer{
+    background-color: #4B4073;
+    color: white;
+    text-align: center;
+    height: 23px;
+}
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+@media screen and (min-width: 768px){ 
+    header{
+        background-image: url(../imagens/teste.jpg);
+        background-size: cover;
+    }
+}
